@@ -5,7 +5,7 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
         client.print(new WhiteshipFactory1(), "Whiteship", "janghee@gmail.com");
-        client.print(new WhiteshipFactory1(), "Blackship", "janghee@mail.com");
+        client.print(new BlackshipFactory1(), "Blackship", "janghee@mail.com");
 
     }
 
