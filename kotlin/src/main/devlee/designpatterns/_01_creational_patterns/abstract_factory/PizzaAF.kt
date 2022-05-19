@@ -13,6 +13,20 @@ abstract class PizzaAF {
     var veggie: Veggie? = null
     var tomato: Tomato? = null
 
+    abstract fun prepare()
+
+    fun bake() {
+        println("25분 동안 피자를 굽습니다.")
+    }
+
+    fun cut() {
+        println("피자를 8등분으로 자릅니다.")
+    }
+
+    fun box() {
+        println("피자 박스에 피자를 담고 있습니다.")
+    }
+
     override fun toString(): String {
         val result = StringBuffer()
         result.append("--- $name ---\n")
@@ -47,19 +61,6 @@ abstract class PizzaAF {
         }
 
         return result.toString()
-    }
 
-    abstract fun prepare()
-
-    fun bake() {
-        println("25분 동안 피자를 굽습니다.")
-    }
-
-    fun cut() {
-        println("피자를 8등분으로 자릅니다.")
-    }
-
-    fun box() {
-        println("피자 박스에 피자를 담고 있습니다.")
     }
 }
