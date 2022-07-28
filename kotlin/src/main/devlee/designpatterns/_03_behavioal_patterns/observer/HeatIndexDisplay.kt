@@ -8,7 +8,7 @@ class HeatIndexDisplay(private val weatherData: WeatherData) : Observer, Display
     }
 
     override fun display() {
-        println("Heat index is $heatIndex")
+        println("[HeatIndexDisplay] Heat index is $heatIndex")
     }
 
     override fun update(temp: Float, humidity: Float, pressure: Float) {

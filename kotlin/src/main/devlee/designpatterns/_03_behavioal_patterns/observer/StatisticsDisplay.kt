@@ -1,6 +1,8 @@
 package main.devlee.designpatterns._03_behavioal_patterns.observer
 
-class StatisticsDisplay(private val weatherData: WeatherData) : Observer, DisplayElement {
+class StatisticsDisplay(
+    weatherData: WeatherData
+) : Observer, DisplayElement {
     private var maxTemp = Float.MIN_VALUE
     private var minTemp = Float.MAX_VALUE
     private var tempSum = 0f
@@ -12,7 +14,7 @@ class StatisticsDisplay(private val weatherData: WeatherData) : Observer, Displa
 
     override fun display() {
         println(
-            "Avg/Max/Min temperature = " + tempSum / numReadings
+            "[StatisticsDisplay] Avg/Max/Min temperature = " + tempSum / numReadings
                     + "/" + maxTemp + "/" + minTemp
         )
     }
