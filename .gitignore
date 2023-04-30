@@ -32,3 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 out/
+
+### Kotlin ###
+out/production/kotlin/META-INF/
