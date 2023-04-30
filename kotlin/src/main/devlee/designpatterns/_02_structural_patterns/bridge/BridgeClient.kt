@@ -4,6 +4,7 @@ class BridgeClient {
     init {
         val tvFactory = TVFactory()
         val remoteSony = SpecialRemote(tvFactory)
+        println()
         println("Connect your remote to the TV.")
         remoteSony.setTV("Sony")
         remoteSony.on()
@@ -11,7 +12,7 @@ class BridgeClient {
         remoteSony.up()
         remoteSony.down()
         remoteSony.off()
-        println("==============================")
+        println("==============================\n")
 
         val remoteLG = GenericRemote(tvFactory)
         println("Connect your remote to the TV.")
@@ -22,7 +23,7 @@ class BridgeClient {
         remoteLG.prevChannel()
         remoteLG.prevChannel()
         remoteLG.off()
-        println("==============================")
+        println("==============================\n")
 
         val remoteSamsung = GenericRemote(tvFactory)
         println("Connect your remote to the TV.")
