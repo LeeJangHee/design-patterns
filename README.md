@@ -10,7 +10,7 @@
 
 2. 행동 패턴 (Structural)
     - [Adapter Pattern](https://velog.io/@aios_/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%EC%96%B4%EB%8C%91%ED%84%B0-%ED%8C%A8%ED%84%B4)
-    - Composite Pattern
+    - [Composite Pattern](https://velog.io/@aios_/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-%ED%8C%A8%ED%84%B4)
     - [Decorator Pattern](https://velog.io/@aios_/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0-%ED%8C%A8%ED%84%B4)
     - [Bridge Pattern](https://velog.io/@aios_/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%EB%B8%8C%EB%A6%BF%EC%A7%80-%ED%8C%A8%ED%84%B4)
 
